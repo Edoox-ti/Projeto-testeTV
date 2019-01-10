@@ -12,7 +12,8 @@ class Televisao {
 int canal;
 String marca;
 float tamanho;
-	
+
+
 //ATRIBUIÇÃO DE METODO SEM RETORNO
 	void aumentaCanal() {
 		canal = canal + 1;
@@ -20,11 +21,16 @@ float tamanho;
 
  
  /ATRIBUIÇÃO DE METODO SEM RETORNO
-	void abaixaCanal() {
+
+void abaixaCanal() {
 		canal = canal - 1;
 	}
-	 /ATRIBUIÇÃO DE DADOS
-	void imprimir() {
+	
+
+//ATRIBUIÇÃO DE DADOS
+	
+
+void imprimir() {
 		JOptionPane.showMessageDialog(null,
 			"Canal: " + canal + 
 			"\nMarca: " + marca + 
